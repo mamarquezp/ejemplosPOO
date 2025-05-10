@@ -1,0 +1,22 @@
+{
+  "name": "ejemplospoo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mamarquezp/ejemplosPOO#readme",
+  "bugs": {
+    "url": "https://github.com/mamarquezp/ejemplosPOO/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamarquezp/ejemplosPOO.git"
+  },
+  "license": "ISC",
+  "author": "Mike Marquez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/src/index",
+    "dev": "nodemon"
+  }
+}
